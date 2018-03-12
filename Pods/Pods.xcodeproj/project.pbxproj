@@ -1,0 +1,724 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04DFFB74EC959339EE851FD3A8561B2C /* Pods-RoomBookingAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5A170CD4AF0BDD7C2DEB6B3F03B400B1 /* Pods-RoomBookingAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		050CD53386865DF9AEC370F161AA2123 /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ECFBBB7746C37A7326E6FA83FFE7C4E6 /* Toast-Swift-dummy.m */; };
+		4DC250C15EB3776C688167D5B76E3F76 /* Pods-RoomBookingAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 086C952DED26625479CB5622BC8DFAA1 /* Pods-RoomBookingAppTests-dummy.m */; };
+		535E2018D1E47CAF2604C5FA15AC53E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		7F4B09854E4A1EEC44D5634F99E2506A /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1A0C7E85608C4ABE3210E1C6707C889 /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CF2D42FF177B9A305F06750B857C0C9 /* Pods-RoomBookingApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 405930B04D14FA5B4F210651EE50865B /* Pods-RoomBookingApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A308112C3E0E7D57B6BD25EC947F690C /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F6068E46F837C6016823EBEE5392A58 /* Toast.swift */; };
+		AFE0173933C2932238F890539B727E29 /* Pods-RoomBookingApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BF8B775F548A4B9144308C5FCB7ACBF /* Pods-RoomBookingApp-dummy.m */; };
+		B966522A3386A1E680B9016E842FE76C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+		E9614655E1B74F71205E3DB633D191A5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */; };
+		F6BA3095379F6E0E01FE1FC1B8B8940C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		96F3C8763CB320C2D60D16347A61B4F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF39CF8FEDDBEDCBDD4A6F481CAA74BA;
+			remoteInfo = "Toast-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		086C952DED26625479CB5622BC8DFAA1 /* Pods-RoomBookingAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RoomBookingAppTests-dummy.m"; sourceTree = "<group>"; };
+		109849FE62B81419E890A3FB632CABE5 /* Pods-RoomBookingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoomBookingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1F115BD343D4A24EEF27ABA35C2633F9 /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
+		3D7E021BAB832613A41B99CF5D873260 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		405930B04D14FA5B4F210651EE50865B /* Pods-RoomBookingApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RoomBookingApp-umbrella.h"; sourceTree = "<group>"; };
+		4331B31A66CF880AEDDE4CE701445358 /* Pods-RoomBookingAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RoomBookingAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4E84046D8D16BE4A0EDEF6518ADE2A2E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		517580113980DF2A89DD5D88BAF2274D /* Pods_RoomBookingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RoomBookingApp.framework; path = "Pods-RoomBookingApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5A170CD4AF0BDD7C2DEB6B3F03B400B1 /* Pods-RoomBookingAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RoomBookingAppTests-umbrella.h"; sourceTree = "<group>"; };
+		5BF8B775F548A4B9144308C5FCB7ACBF /* Pods-RoomBookingApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RoomBookingApp-dummy.m"; sourceTree = "<group>"; };
+		64D19C8D1BB48F211F4F26F15FCAF1F5 /* Pods-RoomBookingAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RoomBookingAppTests.modulemap"; sourceTree = "<group>"; };
+		66151C0CA2903F7FF25FAA446DC53725 /* Pods-RoomBookingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoomBookingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		680AE845789700A1E4491B99E06051D7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		928A7D7598AC659D1B243A93433C5DD3 /* Pods_RoomBookingAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RoomBookingAppTests.framework; path = "Pods-RoomBookingAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F6068E46F837C6016823EBEE5392A58 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
+		A74D29BB5F3FF6F890EFAEF7F36EC289 /* Pods-RoomBookingAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RoomBookingAppTests-frameworks.sh"; sourceTree = "<group>"; };
+		A79A899D68EF13FA6FC258D9B877D826 /* Pods-RoomBookingApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RoomBookingApp-frameworks.sh"; sourceTree = "<group>"; };
+		A99474AAC89B5F370C39EEC874483CD3 /* Pods-RoomBookingApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RoomBookingApp-resources.sh"; sourceTree = "<group>"; };
+		B07FC0358020C9BF5D3DB9385897D6B3 /* Toast-Swift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.xcconfig"; sourceTree = "<group>"; };
+		B2CE243FE05C0586A543AE2FFE521B01 /* Pods-RoomBookingApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RoomBookingApp-acknowledgements.plist"; sourceTree = "<group>"; };
+		B4AB29ADF282B3B14535EEE2B818304D /* Pods-RoomBookingAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RoomBookingAppTests-resources.sh"; sourceTree = "<group>"; };
+		B4FFDB804705A024529A430CA9D2FFE2 /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
+		BB81F9B18BE6C762167930FD68483E71 /* Pods-RoomBookingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoomBookingAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		E6B4FC5A8DB346E1A3614B5DB1D27E47 /* Toast_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toast_Swift.framework; path = "Toast-Swift.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E91B48E03E133A08652B14E5C72DD89A /* Pods-RoomBookingApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RoomBookingApp.modulemap"; sourceTree = "<group>"; };
+		ECFBBB7746C37A7326E6FA83FFE7C4E6 /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
+		F1A0C7E85608C4ABE3210E1C6707C889 /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
+		F580ADC2FFBED69AC1B08AAF2E79B4E6 /* Pods-RoomBookingApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RoomBookingApp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F9A6ADD47ECB2683753DFCBDE4B99FBF /* Pods-RoomBookingAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RoomBookingAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		FB8A4F1B6EE5D84C3827047CC7FDB118 /* Pods-RoomBookingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoomBookingApp.release.xcconfig"; sourceTree = "<group>"; };
+		FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A3484C04DAD3B9EFBB502CD43ADD668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B966522A3386A1E680B9016E842FE76C /* Foundation.framework in Frameworks */,
+				E9614655E1B74F71205E3DB633D191A5 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		941651AD41812012C812F48DE8807398 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				535E2018D1E47CAF2604C5FA15AC53E0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC491A6620BBD91FAFD0B697120FA58F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6BA3095379F6E0E01FE1FC1B8B8940C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06990190BA5D5F1C5CCB1C03A26790E5 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				680AE845789700A1E4491B99E06051D7 /* Info.plist */,
+				B4FFDB804705A024529A430CA9D2FFE2 /* Toast-Swift.modulemap */,
+				B07FC0358020C9BF5D3DB9385897D6B3 /* Toast-Swift.xcconfig */,
+				ECFBBB7746C37A7326E6FA83FFE7C4E6 /* Toast-Swift-dummy.m */,
+				1F115BD343D4A24EEF27ABA35C2633F9 /* Toast-Swift-prefix.pch */,
+				F1A0C7E85608C4ABE3210E1C6707C889 /* Toast-Swift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toast-Swift";
+			sourceTree = "<group>";
+		};
+		17FEF4A1B63B34E55AA7A311464D0DBE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC8AFE1391CEB2B130E5A4712AEA25 /* Pods-RoomBookingApp */,
+				B6637D6E871648E164EAF738FC5910FF /* Pods-RoomBookingAppTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1CC7CB9B2C9AE97AB1B25B9DC56A545D /* Toast-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				9F6068E46F837C6016823EBEE5392A58 /* Toast.swift */,
+				06990190BA5D5F1C5CCB1C03A26790E5 /* Support Files */,
+			);
+			name = "Toast-Swift";
+			path = "Toast-Swift";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				978007DCB56F415BE390E0F949D4D4E5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				EC8D67C4274D7B80A0E45DB6A06B96F9 /* Pods */,
+				D8C16A7CBE299627B35C14D8DDF6828C /* Products */,
+				17FEF4A1B63B34E55AA7A311464D0DBE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		978007DCB56F415BE390E0F949D4D4E5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				54F9A0E952988935C32EDDB1429D7133 /* Foundation.framework */,
+				FC2770B482BFE91273C8560623F1422C /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B6637D6E871648E164EAF738FC5910FF /* Pods-RoomBookingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D7E021BAB832613A41B99CF5D873260 /* Info.plist */,
+				64D19C8D1BB48F211F4F26F15FCAF1F5 /* Pods-RoomBookingAppTests.modulemap */,
+				4331B31A66CF880AEDDE4CE701445358 /* Pods-RoomBookingAppTests-acknowledgements.markdown */,
+				F9A6ADD47ECB2683753DFCBDE4B99FBF /* Pods-RoomBookingAppTests-acknowledgements.plist */,
+				086C952DED26625479CB5622BC8DFAA1 /* Pods-RoomBookingAppTests-dummy.m */,
+				A74D29BB5F3FF6F890EFAEF7F36EC289 /* Pods-RoomBookingAppTests-frameworks.sh */,
+				B4AB29ADF282B3B14535EEE2B818304D /* Pods-RoomBookingAppTests-resources.sh */,
+				5A170CD4AF0BDD7C2DEB6B3F03B400B1 /* Pods-RoomBookingAppTests-umbrella.h */,
+				109849FE62B81419E890A3FB632CABE5 /* Pods-RoomBookingAppTests.debug.xcconfig */,
+				BB81F9B18BE6C762167930FD68483E71 /* Pods-RoomBookingAppTests.release.xcconfig */,
+			);
+			name = "Pods-RoomBookingAppTests";
+			path = "Target Support Files/Pods-RoomBookingAppTests";
+			sourceTree = "<group>";
+		};
+		D8C16A7CBE299627B35C14D8DDF6828C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				517580113980DF2A89DD5D88BAF2274D /* Pods_RoomBookingApp.framework */,
+				928A7D7598AC659D1B243A93433C5DD3 /* Pods_RoomBookingAppTests.framework */,
+				E6B4FC5A8DB346E1A3614B5DB1D27E47 /* Toast_Swift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEBC8AFE1391CEB2B130E5A4712AEA25 /* Pods-RoomBookingApp */ = {
+			isa = PBXGroup;
+			children = (
+				4E84046D8D16BE4A0EDEF6518ADE2A2E /* Info.plist */,
+				E91B48E03E133A08652B14E5C72DD89A /* Pods-RoomBookingApp.modulemap */,
+				F580ADC2FFBED69AC1B08AAF2E79B4E6 /* Pods-RoomBookingApp-acknowledgements.markdown */,
+				B2CE243FE05C0586A543AE2FFE521B01 /* Pods-RoomBookingApp-acknowledgements.plist */,
+				5BF8B775F548A4B9144308C5FCB7ACBF /* Pods-RoomBookingApp-dummy.m */,
+				A79A899D68EF13FA6FC258D9B877D826 /* Pods-RoomBookingApp-frameworks.sh */,
+				A99474AAC89B5F370C39EEC874483CD3 /* Pods-RoomBookingApp-resources.sh */,
+				405930B04D14FA5B4F210651EE50865B /* Pods-RoomBookingApp-umbrella.h */,
+				66151C0CA2903F7FF25FAA446DC53725 /* Pods-RoomBookingApp.debug.xcconfig */,
+				FB8A4F1B6EE5D84C3827047CC7FDB118 /* Pods-RoomBookingApp.release.xcconfig */,
+			);
+			name = "Pods-RoomBookingApp";
+			path = "Target Support Files/Pods-RoomBookingApp";
+			sourceTree = "<group>";
+		};
+		EC8D67C4274D7B80A0E45DB6A06B96F9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1CC7CB9B2C9AE97AB1B25B9DC56A545D /* Toast-Swift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		83E4D7C3DAB8DDF9AA14FD9BAC4FC62F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04DFFB74EC959339EE851FD3A8561B2C /* Pods-RoomBookingAppTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F658D7EC8544786C0741EADF4BB8BAB5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CF2D42FF177B9A305F06750B857C0C9 /* Pods-RoomBookingApp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0AC677D9D03F06F4F57D0CBBBA615A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F4B09854E4A1EEC44D5634F99E2506A /* Toast-Swift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		AFDCCA197E4DC03BAE183D79DA18CB3E /* Pods-RoomBookingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 261F4F178EE034FBBDDFB0E4703BC6F9 /* Build configuration list for PBXNativeTarget "Pods-RoomBookingApp" */;
+			buildPhases = (
+				A2AC5D5EA3CB5715B36C9657802ED12C /* Sources */,
+				BC491A6620BBD91FAFD0B697120FA58F /* Frameworks */,
+				F658D7EC8544786C0741EADF4BB8BAB5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A052039D0A9BD4B414DD39FC114EEBB8 /* PBXTargetDependency */,
+			);
+			name = "Pods-RoomBookingApp";
+			productName = "Pods-RoomBookingApp";
+			productReference = 517580113980DF2A89DD5D88BAF2274D /* Pods_RoomBookingApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF39CF8FEDDBEDCBDD4A6F481CAA74BA /* Toast-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCAB29D5B6E16FE75E1B44D012312606 /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
+			buildPhases = (
+				9A5CE51E9E60740A3233A80F9D7217E2 /* Sources */,
+				7A3484C04DAD3B9EFBB502CD43ADD668 /* Frameworks */,
+				FF0AC677D9D03F06F4F57D0CBBBA615A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Toast-Swift";
+			productName = "Toast-Swift";
+			productReference = E6B4FC5A8DB346E1A3614B5DB1D27E47 /* Toast_Swift.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DADF5412B2A027658280CC97D2AFA690 /* Pods-RoomBookingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B10EA40268F97A4A1D204A0F25CF6B48 /* Build configuration list for PBXNativeTarget "Pods-RoomBookingAppTests" */;
+			buildPhases = (
+				A99734C3F88203481012400B4939B1FE /* Sources */,
+				941651AD41812012C812F48DE8807398 /* Frameworks */,
+				83E4D7C3DAB8DDF9AA14FD9BAC4FC62F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RoomBookingAppTests";
+			productName = "Pods-RoomBookingAppTests";
+			productReference = 928A7D7598AC659D1B243A93433C5DD3 /* Pods_RoomBookingAppTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D8C16A7CBE299627B35C14D8DDF6828C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFDCCA197E4DC03BAE183D79DA18CB3E /* Pods-RoomBookingApp */,
+				DADF5412B2A027658280CC97D2AFA690 /* Pods-RoomBookingAppTests */,
+				BF39CF8FEDDBEDCBDD4A6F481CAA74BA /* Toast-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A5CE51E9E60740A3233A80F9D7217E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				050CD53386865DF9AEC370F161AA2123 /* Toast-Swift-dummy.m in Sources */,
+				A308112C3E0E7D57B6BD25EC947F690C /* Toast.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2AC5D5EA3CB5715B36C9657802ED12C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFE0173933C2932238F890539B727E29 /* Pods-RoomBookingApp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A99734C3F88203481012400B4939B1FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DC250C15EB3776C688167D5B76E3F76 /* Pods-RoomBookingAppTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A052039D0A9BD4B414DD39FC114EEBB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Toast-Swift";
+			target = BF39CF8FEDDBEDCBDD4A6F481CAA74BA /* Toast-Swift */;
+			targetProxy = 96F3C8763CB320C2D60D16347A61B4F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3099E2CE718F17B7665B10A5CE2EAB28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB81F9B18BE6C762167930FD68483E71 /* Pods-RoomBookingAppTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RoomBookingAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RoomBookingAppTests/Pods-RoomBookingAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RoomBookingAppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E23111F3FBC772F4F593309F9FB4598 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66151C0CA2903F7FF25FAA446DC53725 /* Pods-RoomBookingApp.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RoomBookingApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RoomBookingApp/Pods-RoomBookingApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RoomBookingApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		49B5A78DBE571998053070754D3695E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		55A1CC8304292618987A3A0ED4A31408 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B07FC0358020C9BF5D3DB9385897D6B3 /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8864ECA98C31F4A967695A5261CF029D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 109849FE62B81419E890A3FB632CABE5 /* Pods-RoomBookingAppTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RoomBookingAppTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RoomBookingAppTests/Pods-RoomBookingAppTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RoomBookingAppTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BB48381625F0025815C2A4B87A831B38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB8A4F1B6EE5D84C3827047CC7FDB118 /* Pods-RoomBookingApp.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RoomBookingApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RoomBookingApp/Pods-RoomBookingApp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RoomBookingApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D4481CE7F6B11F4EE1C70A0324A9D520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B07FC0358020C9BF5D3DB9385897D6B3 /* Toast-Swift.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
+				PRODUCT_NAME = Toast_Swift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DD369323FD85CB26347C0D75C75D837F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		261F4F178EE034FBBDDFB0E4703BC6F9 /* Build configuration list for PBXNativeTarget "Pods-RoomBookingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3E23111F3FBC772F4F593309F9FB4598 /* Debug */,
+				BB48381625F0025815C2A4B87A831B38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD369323FD85CB26347C0D75C75D837F /* Debug */,
+				49B5A78DBE571998053070754D3695E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B10EA40268F97A4A1D204A0F25CF6B48 /* Build configuration list for PBXNativeTarget "Pods-RoomBookingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8864ECA98C31F4A967695A5261CF029D /* Debug */,
+				3099E2CE718F17B7665B10A5CE2EAB28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCAB29D5B6E16FE75E1B44D012312606 /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4481CE7F6B11F4EE1C70A0324A9D520 /* Debug */,
+				55A1CC8304292618987A3A0ED4A31408 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

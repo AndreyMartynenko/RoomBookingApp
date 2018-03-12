@@ -1,0 +1,754 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3EE088F71E8640D85E278210 /* Pods_RoomBookingApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39F73BD1480C7ADBC3E5CF8A /* Pods_RoomBookingApp.framework */; };
+		5543672920553091001449CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543672820553091001449CD /* AppDelegate.swift */; };
+		5543672E20553091001449CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5543672C20553091001449CD /* Main.storyboard */; };
+		5543673020553091001449CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5543672F20553091001449CD /* Assets.xcassets */; };
+		5543673320553091001449CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5543673120553091001449CD /* LaunchScreen.storyboard */; };
+		5543673E20553092001449CD /* RoomBookingAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543673D20553092001449CD /* RoomBookingAppTests.swift */; };
+		5543674D20553107001449CD /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543674C20553107001449CD /* NetworkClient.swift */; };
+		5543674F2055312D001449CD /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543674E2055312D001449CD /* Result.swift */; };
+		5543675320553169001449CD /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543675220553169001449CD /* Endpoint.swift */; };
+		554367572055319B001449CD /* Room.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554367562055319B001449CD /* Room.swift */; };
+		55436759205531AD001449CD /* ResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55436758205531AD001449CD /* ResponseError.swift */; };
+		5543675B205531C4001449CD /* TimeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5543675A205531C4001449CD /* TimeBar.swift */; };
+		556F950E205534AF00C50B55 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556F950D205534AF00C50B55 /* SearchViewController.swift */; };
+		556F95102055450F00C50B55 /* RoomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556F950F2055450F00C50B55 /* RoomCell.swift */; };
+		556F95132055459100C50B55 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556F95122055459100C50B55 /* SearchViewModel.swift */; };
+		556F9517205546B100C50B55 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556F9516205546B100C50B55 /* NetworkError.swift */; };
+		556F95192055471D00C50B55 /* SearchEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556F95182055471D00C50B55 /* SearchEndpoint.swift */; };
+		556F951B205547DC00C50B55 /* SearchClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556F951A205547DC00C50B55 /* SearchClient.swift */; };
+		556F951E20554E0A00C50B55 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556F951D20554E0A00C50B55 /* Constants.swift */; };
+		556F9520205589E300C50B55 /* RoomDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556F951F205589E300C50B55 /* RoomDetailsViewController.swift */; };
+		556F952320558CE700C50B55 /* UIImageView+ImageFromUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556F952220558CE700C50B55 /* UIImageView+ImageFromUrl.swift */; };
+		556F95252055A01200C50B55 /* RoomBookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556F95242055A01200C50B55 /* RoomBookingViewController.swift */; };
+		557A9B9F205690E500DD86AB /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 557A9B9E205690E500DD86AB /* Color.swift */; };
+		FA41C4FBFB84BD48F3893983 /* Pods_RoomBookingAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53C2E07D82EB9425B188EBE /* Pods_RoomBookingAppTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5543673A20553092001449CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5543671D20553091001449CD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5543672420553091001449CD;
+			remoteInfo = RoomBookingApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A9FB52CD7C4AD09CDF7F537 /* Pods-RoomBookingApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomBookingApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoomBookingApp/Pods-RoomBookingApp.release.xcconfig"; sourceTree = "<group>"; };
+		39F73BD1480C7ADBC3E5CF8A /* Pods_RoomBookingApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoomBookingApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5543672520553091001449CD /* RoomBookingApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoomBookingApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5543672820553091001449CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5543672D20553091001449CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5543672F20553091001449CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5543673220553091001449CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5543673420553091001449CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5543673920553092001449CD /* RoomBookingAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoomBookingAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5543673D20553092001449CD /* RoomBookingAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomBookingAppTests.swift; sourceTree = "<group>"; };
+		5543673F20553092001449CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5543674C20553107001449CD /* NetworkClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
+		5543674E2055312D001449CD /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
+		5543675220553169001449CD /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		554367562055319B001449CD /* Room.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Room.swift; sourceTree = "<group>"; };
+		55436758205531AD001449CD /* ResponseError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseError.swift; sourceTree = "<group>"; };
+		5543675A205531C4001449CD /* TimeBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeBar.swift; sourceTree = "<group>"; };
+		556F950D205534AF00C50B55 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		556F950F2055450F00C50B55 /* RoomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomCell.swift; sourceTree = "<group>"; };
+		556F95122055459100C50B55 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		556F9516205546B100C50B55 /* NetworkError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		556F95182055471D00C50B55 /* SearchEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchEndpoint.swift; sourceTree = "<group>"; };
+		556F951A205547DC00C50B55 /* SearchClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchClient.swift; sourceTree = "<group>"; };
+		556F951D20554E0A00C50B55 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		556F951F205589E300C50B55 /* RoomDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomDetailsViewController.swift; sourceTree = "<group>"; };
+		556F952220558CE700C50B55 /* UIImageView+ImageFromUrl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+ImageFromUrl.swift"; sourceTree = "<group>"; };
+		556F95242055A01200C50B55 /* RoomBookingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomBookingViewController.swift; sourceTree = "<group>"; };
+		557A9B9E205690E500DD86AB /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		90053265432398F5C008B26F /* Pods-RoomBookingApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomBookingApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoomBookingApp/Pods-RoomBookingApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B53C2E07D82EB9425B188EBE /* Pods_RoomBookingAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RoomBookingAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E743685E54D406A914B7C356 /* Pods-RoomBookingAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomBookingAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RoomBookingAppTests/Pods-RoomBookingAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F864016EA6AA1AE174F82520 /* Pods-RoomBookingAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomBookingAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RoomBookingAppTests/Pods-RoomBookingAppTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5543672220553091001449CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3EE088F71E8640D85E278210 /* Pods_RoomBookingApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5543673620553092001449CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA41C4FBFB84BD48F3893983 /* Pods_RoomBookingAppTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07F5D1B9C129AE26F0E23AD7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90053265432398F5C008B26F /* Pods-RoomBookingApp.debug.xcconfig */,
+				1A9FB52CD7C4AD09CDF7F537 /* Pods-RoomBookingApp.release.xcconfig */,
+				E743685E54D406A914B7C356 /* Pods-RoomBookingAppTests.debug.xcconfig */,
+				F864016EA6AA1AE174F82520 /* Pods-RoomBookingAppTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5543671C20553091001449CD = {
+			isa = PBXGroup;
+			children = (
+				5543672720553091001449CD /* RoomBookingApp */,
+				5543673C20553092001449CD /* RoomBookingAppTests */,
+				5543672620553091001449CD /* Products */,
+				07F5D1B9C129AE26F0E23AD7 /* Pods */,
+				E384314CB0B4C2DB45FD5734 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5543672620553091001449CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5543672520553091001449CD /* RoomBookingApp.app */,
+				5543673920553092001449CD /* RoomBookingAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5543672720553091001449CD /* RoomBookingApp */ = {
+			isa = PBXGroup;
+			children = (
+				557A9B9D205690A300DD86AB /* Utils */,
+				556F952120558CD700C50B55 /* Extensions */,
+				556F951C20554DEE00C50B55 /* Constants */,
+				556F95112055454900C50B55 /* ViewModels */,
+				5543674B205530EB001449CD /* Controllers */,
+				5543674A205530E3001449CD /* Views */,
+				55436749205530DC001449CD /* Models */,
+				55436748205530CD001449CD /* Networking */,
+				557A9B9B20568EFB00DD86AB /* UI */,
+				557A9B9C20568F2A00DD86AB /* Supporting Files */,
+			);
+			path = RoomBookingApp;
+			sourceTree = "<group>";
+		};
+		5543673C20553092001449CD /* RoomBookingAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				5543673D20553092001449CD /* RoomBookingAppTests.swift */,
+				5543673F20553092001449CD /* Info.plist */,
+			);
+			path = RoomBookingAppTests;
+			sourceTree = "<group>";
+		};
+		55436748205530CD001449CD /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				556F95152055468B00C50B55 /* Clients */,
+				556F95142055467600C50B55 /* Endpoints */,
+				5543674C20553107001449CD /* NetworkClient.swift */,
+				5543674E2055312D001449CD /* Result.swift */,
+				556F9516205546B100C50B55 /* NetworkError.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		55436749205530DC001449CD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				554367562055319B001449CD /* Room.swift */,
+				55436758205531AD001449CD /* ResponseError.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5543674A205530E3001449CD /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5543675A205531C4001449CD /* TimeBar.swift */,
+				556F950F2055450F00C50B55 /* RoomCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5543674B205530EB001449CD /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				556F950D205534AF00C50B55 /* SearchViewController.swift */,
+				556F951F205589E300C50B55 /* RoomDetailsViewController.swift */,
+				556F95242055A01200C50B55 /* RoomBookingViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		556F95112055454900C50B55 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				556F95122055459100C50B55 /* SearchViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		556F95142055467600C50B55 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				5543675220553169001449CD /* Endpoint.swift */,
+				556F95182055471D00C50B55 /* SearchEndpoint.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		556F95152055468B00C50B55 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+				556F951A205547DC00C50B55 /* SearchClient.swift */,
+			);
+			path = Clients;
+			sourceTree = "<group>";
+		};
+		556F951C20554DEE00C50B55 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				556F951D20554E0A00C50B55 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		556F952120558CD700C50B55 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				556F952220558CE700C50B55 /* UIImageView+ImageFromUrl.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		557A9B9B20568EFB00DD86AB /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				5543672C20553091001449CD /* Main.storyboard */,
+				5543673120553091001449CD /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		557A9B9C20568F2A00DD86AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5543672820553091001449CD /* AppDelegate.swift */,
+				5543672F20553091001449CD /* Assets.xcassets */,
+				5543673420553091001449CD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		557A9B9D205690A300DD86AB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				557A9B9E205690E500DD86AB /* Color.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		E384314CB0B4C2DB45FD5734 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39F73BD1480C7ADBC3E5CF8A /* Pods_RoomBookingApp.framework */,
+				B53C2E07D82EB9425B188EBE /* Pods_RoomBookingAppTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5543672420553091001449CD /* RoomBookingApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5543674220553092001449CD /* Build configuration list for PBXNativeTarget "RoomBookingApp" */;
+			buildPhases = (
+				DB9875F3DE9927B9D4E5AD79 /* [CP] Check Pods Manifest.lock */,
+				5543672120553091001449CD /* Sources */,
+				5543672220553091001449CD /* Frameworks */,
+				5543672320553091001449CD /* Resources */,
+				A32F576234315DC705B15B89 /* [CP] Embed Pods Frameworks */,
+				9D097CB8805386F7D905D3E6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RoomBookingApp;
+			productName = RoomBookingApp;
+			productReference = 5543672520553091001449CD /* RoomBookingApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5543673820553092001449CD /* RoomBookingAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5543674520553092001449CD /* Build configuration list for PBXNativeTarget "RoomBookingAppTests" */;
+			buildPhases = (
+				D9D80F2CE6C945F04D217A6E /* [CP] Check Pods Manifest.lock */,
+				5543673520553092001449CD /* Sources */,
+				5543673620553092001449CD /* Frameworks */,
+				5543673720553092001449CD /* Resources */,
+				3411B99F10EBD6E94123396E /* [CP] Embed Pods Frameworks */,
+				D589AA6346BA9918A6716554 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5543673B20553092001449CD /* PBXTargetDependency */,
+			);
+			name = RoomBookingAppTests;
+			productName = RoomBookingAppTests;
+			productReference = 5543673920553092001449CD /* RoomBookingAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5543671D20553091001449CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				TargetAttributes = {
+					5543672420553091001449CD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					5543673820553092001449CD = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5543672420553091001449CD;
+					};
+				};
+			};
+			buildConfigurationList = 5543672020553091001449CD /* Build configuration list for PBXProject "RoomBookingApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5543671C20553091001449CD;
+			productRefGroup = 5543672620553091001449CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5543672420553091001449CD /* RoomBookingApp */,
+				5543673820553092001449CD /* RoomBookingAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5543672320553091001449CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5543673320553091001449CD /* LaunchScreen.storyboard in Resources */,
+				5543673020553091001449CD /* Assets.xcassets in Resources */,
+				5543672E20553091001449CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5543673720553092001449CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3411B99F10EBD6E94123396E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoomBookingAppTests/Pods-RoomBookingAppTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D097CB8805386F7D905D3E6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoomBookingApp/Pods-RoomBookingApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A32F576234315DC705B15B89 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RoomBookingApp/Pods-RoomBookingApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoomBookingApp/Pods-RoomBookingApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D589AA6346BA9918A6716554 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RoomBookingAppTests/Pods-RoomBookingAppTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9D80F2CE6C945F04D217A6E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoomBookingAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB9875F3DE9927B9D4E5AD79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RoomBookingApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5543672120553091001449CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				556F952320558CE700C50B55 /* UIImageView+ImageFromUrl.swift in Sources */,
+				556F9520205589E300C50B55 /* RoomDetailsViewController.swift in Sources */,
+				556F950E205534AF00C50B55 /* SearchViewController.swift in Sources */,
+				5543672920553091001449CD /* AppDelegate.swift in Sources */,
+				554367572055319B001449CD /* Room.swift in Sources */,
+				556F95192055471D00C50B55 /* SearchEndpoint.swift in Sources */,
+				5543674F2055312D001449CD /* Result.swift in Sources */,
+				5543674D20553107001449CD /* NetworkClient.swift in Sources */,
+				556F951E20554E0A00C50B55 /* Constants.swift in Sources */,
+				556F95132055459100C50B55 /* SearchViewModel.swift in Sources */,
+				556F95102055450F00C50B55 /* RoomCell.swift in Sources */,
+				556F95252055A01200C50B55 /* RoomBookingViewController.swift in Sources */,
+				5543675320553169001449CD /* Endpoint.swift in Sources */,
+				5543675B205531C4001449CD /* TimeBar.swift in Sources */,
+				556F9517205546B100C50B55 /* NetworkError.swift in Sources */,
+				55436759205531AD001449CD /* ResponseError.swift in Sources */,
+				556F951B205547DC00C50B55 /* SearchClient.swift in Sources */,
+				557A9B9F205690E500DD86AB /* Color.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5543673520553092001449CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5543673E20553092001449CD /* RoomBookingAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5543673B20553092001449CD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5543672420553091001449CD /* RoomBookingApp */;
+			targetProxy = 5543673A20553092001449CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5543672C20553091001449CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5543672D20553091001449CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5543673120553091001449CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5543673220553091001449CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5543674020553092001449CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5543674120553092001449CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5543674320553092001449CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90053265432398F5C008B26F /* Pods-RoomBookingApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRG8KSNL6T;
+				INFOPLIST_FILE = RoomBookingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.RoomBookingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5543674420553092001449CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A9FB52CD7C4AD09CDF7F537 /* Pods-RoomBookingApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRG8KSNL6T;
+				INFOPLIST_FILE = RoomBookingApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.RoomBookingApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5543674620553092001449CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E743685E54D406A914B7C356 /* Pods-RoomBookingAppTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRG8KSNL6T;
+				INFOPLIST_FILE = RoomBookingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.RoomBookingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoomBookingApp.app/RoomBookingApp";
+			};
+			name = Debug;
+		};
+		5543674720553092001449CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F864016EA6AA1AE174F82520 /* Pods-RoomBookingAppTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRG8KSNL6T;
+				INFOPLIST_FILE = RoomBookingAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.RoomBookingAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoomBookingApp.app/RoomBookingApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5543672020553091001449CD /* Build configuration list for PBXProject "RoomBookingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5543674020553092001449CD /* Debug */,
+				5543674120553092001449CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5543674220553092001449CD /* Build configuration list for PBXNativeTarget "RoomBookingApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5543674320553092001449CD /* Debug */,
+				5543674420553092001449CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5543674520553092001449CD /* Build configuration list for PBXNativeTarget "RoomBookingAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5543674620553092001449CD /* Debug */,
+				5543674720553092001449CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5543671D20553091001449CD /* Project object */;
+}
